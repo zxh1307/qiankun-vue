@@ -1,3 +1,10 @@
+/*
+ * @Author: ningbo.kang
+ * @Date: 2021-02-20 14:12:34
+ * @LastEditors: ningbo.kang
+ * @LastEditTime: 2021-02-20 14:29:47
+ * @Description: 描述
+ */
 const path = require('path');
 const packageName = require('./package').name;
 
@@ -7,7 +14,7 @@ function resolve(dir) {
 
 const dev = process.env.NODE_ENV === 'development'
 
-const port = 0327; // dev port
+const port = 9000; // dev port
 
 module.exports = {
  publicPath: dev ? `//localhost:${port}` : '/',
