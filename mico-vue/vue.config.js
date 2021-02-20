@@ -1,10 +1,3 @@
-/*
- * @Author: ningbo.kang
- * @Date: 2021-02-20 14:12:34
- * @LastEditors: ningbo.kang
- * @LastEditTime: 2021-02-20 14:29:47
- * @Description: 描述
- */
 const path = require('path');
 const packageName = require('./package').name;
 

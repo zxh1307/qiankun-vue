@@ -1,10 +1,3 @@
-/*
- * @Author: ningbo.kang
- * @Date: 2021-02-20 14:12:34
- * @LastEditors: ningbo.kang
- * @LastEditTime: 2021-02-20 14:31:53
- * @Description: 描述
- */
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
