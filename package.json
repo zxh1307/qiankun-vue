@@ -11,7 +11,7 @@
     "install:mico-vue": "cd mico-vue && npm i",
     "start:masterx": "cd masterx && npm run serve",
     "start:mico-vue": "cd mico-vue && npm run serve",
-    "build:masterx": "cd portal && npm run build",
+    "build:masterx": "cd masterx && npm run build",
     "build:mico-vue": "cd mico-vue && npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
