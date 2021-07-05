@@ -1,0 +1,31 @@
+{
+  "name": "qiankun-vue",
+  "version": "1.0.0",
+  "description": "基于 qiankun 做的微前端项目",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm run install:masterx && npm run install:mico-vue",
+    "start": "concurrently \"npm run start:masterx\" \"npm run start:mico-vue\"",
+    "build": "concurrently \"npm run build:masterx\" \"npm run build:mico-vue\"",
+    "install:masterx": "cd masterx && npm i",
+    "install:mico-vue": "cd mico-vue && npm i",
+    "start:masterx": "cd masterx && npm run serve",
+    "start:mico-vue": "cd mico-vue && npm run serve",
+    "build:masterx": "cd masterx && npm run build",
+    "build:mico-vue": "cd mico-vue && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kangning1206/qiankun-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kangning1206/qiankun-vue/issues"
+  },
+  "homepage": "https://github.com/kangning1206/qiankun-vue#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

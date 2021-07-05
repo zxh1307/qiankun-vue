@@ -46,7 +46,7 @@ let msg = {
 let apps = [
   {
     name: 'linjunjie', 
-    entry: '//localhost:215', 
+    entry: '//localhost:9000', 
     container:'#subView', 
     // render:renderUtil.render, 
     activeRule: genActiveRule('/star'),
